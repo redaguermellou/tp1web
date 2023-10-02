@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>tp
+        
+    </title>
+</head>
+<body>
+    <section class="header">
+        <h1>ibn ghazala</h1>
+        <a class="btn-bgstroke" onclick="showElement()">home</a>
+        <a href="list.php" class="btn-bgstroke">list</a>
+        <a href="add.php" class="btn-bgstroke">add</a>
+        <a  href="contact.php" class="btn-bgstroke">contact</a>
+    </section>
+    <p class="hidden" id="elementId">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</body>
+<script>
+    function hideElement() {
+        const element = document.getElementById('elementId');
+        element.style.display = 'none';
+    }
+
+    function showElement() {
+        const element = document.getElementById('elementId');
+        element.style.display = 'block';
+    }
+</script>
+
+</html>
